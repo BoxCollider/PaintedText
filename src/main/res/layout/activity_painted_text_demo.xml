@@ -1,0 +1,70 @@
+<LinearLayout
+    android:id="@+id/parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCCCCCC"
+    android:orientation="vertical"
+    tools:context=".PaintedTextDemoActivity"
+    android:gravity="center_horizontal">
+
+<include layout="@layout/spacer"/>
+
+    <com.boxcollider.paintedtext.PaintedText
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:fontName="PirataOne.ttf"
+        custom:text="GREENY"
+        custom:textDrawable="@drawable/cellular_green"
+        custom:textSize="60dp"
+        />
+
+    <include layout="@layout/spacer"/>
+
+    <com.boxcollider.paintedtext.PaintedText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:fontName="kinifed.ttf"
+        custom:text="RED BIN"
+        custom:textDrawable="@drawable/cellular_red"
+        custom:textSize="60dp"
+        />
+
+    <include layout="@layout/spacer"/>
+
+    <com.boxcollider.paintedtext.PaintedText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:fontName="chocolate.ttf"
+        custom:text="CARAMEL"
+        custom:textDrawable="@drawable/cellular_white"
+        custom:textSize="60dp"
+        />
+
+    <include layout="@layout/spacer"/>
+
+    <com.boxcollider.paintedtext.PaintedText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:fontName="kinifed.ttf"
+        custom:text="BLUE DOT"
+        custom:textDrawable="@drawable/perlin_blue"
+        custom:textSize="60dp"
+        />
+
+    <include layout="@layout/spacer"/>
+
+    <com.boxcollider.paintedtext.PaintedText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:fontName="chocolate.ttf"
+        custom:text="ROCKS"
+        custom:textDrawable="@drawable/perlin_yellow"
+        custom:textSize="60dp"
+        />
+
+    <include layout="@layout/spacer"/>
+</LinearLayout>
