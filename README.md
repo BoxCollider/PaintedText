@@ -1,12 +1,16 @@
+
 # PaintedText
 Text Mask View for Android
 
-## What is that?
+<img align="right"  src="README_screenshot.png">
+
+
+### What is that?
 PaintedText is an Android View that draws text using pattern from an image.
 Just like making a text mask in your favorite image editing software.
 Supplied as Android Studio library module
 
-## What problem does it solve?
+### What problem does it solve?
 It makes you flexible against constant changes in requirements.
 It makes separation of elements so they can vary independently.
 
@@ -19,7 +23,8 @@ Can we supply different parts of our text logo as separate elements?
 Can that be done faster in code?
 I think yes.
 
-## Can I have more details?
+
+### Can I have more details?
 PaintedText is a simple View that draws text mask.
 At creation we can supply:
 - Font Name for custom font as String
@@ -28,8 +33,7 @@ At creation we can supply:
 - Text size in DP as int value.
 All above parameters are optional and default reasonable values are supplied.
 
-## Can you show some code?
-
+### Can you show some code?
 ```java
 //Reference layout that will hold the PaintedText View
 LinearLayout parentLayout = (LinearLayout) findViewById(R.id.parentLayout);
@@ -41,8 +45,7 @@ PaintedText myLogo = new PaintedText(this,"NEW DAY",R.drawable.cellular_red ,50,
 parentLayout.addView(myLogo);
 ```
 
-## How can I make it from XML?
-
+### How can I make it from XML?
 ```xml
 <com.boxcollider.paintedtext.PaintedText
     xmlns:custom="http://schemas.android.com/apk/res-auto"
